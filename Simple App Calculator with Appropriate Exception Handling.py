@@ -16,4 +16,8 @@ def calculator():
         #Let the user pick among the four math operations
         math_operation = input("Pick one math operation among these four (+, -, *, /): ")
 
+        #Let the user type in two numbers
+        num1 = float(input("Kindly type in the first number you like: "))
+        num2 = float(input("KIndly type in the second number you like: "))
+
     except:
