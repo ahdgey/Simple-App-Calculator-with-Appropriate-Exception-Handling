@@ -12,3 +12,5 @@ print("\033[1;32m\nShe's from BSCPE 1-4")
 print("-" * 90)
 
 def calculator():
+    try:
+    except:
