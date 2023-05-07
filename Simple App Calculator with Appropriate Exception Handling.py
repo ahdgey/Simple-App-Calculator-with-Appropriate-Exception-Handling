@@ -20,4 +20,25 @@ def calculator():
         num1 = float(input("Kindly type in the first number you like: "))
         num2 = float(input("KIndly type in the second number you like: "))
 
+        #Using the math operation that the user pick, execute the calculation
+
+        #If +, add num1 and num2
+        if math_operation == "+":
+            output = num1 + num2
+
+        #If -, subtract num1 and num2
+        elif math_operation == "-":
+            output = num1 - num2
+
+        #If *, multiply num1 and num2
+        elif math_operation == "*":
+            output = num1 * num2
+
+        #If /, divide num1 and num2
+        elif math_operation == "/":
+            output = num1 / num2
+
+        else:
+            raise ValueError("The operation you pick is not in the option.") 
+        
     except:
