@@ -41,4 +41,7 @@ def calculator():
         else:
             raise ValueError("The operation you pick is not in the option.") 
         
+        #Show the output of the program
+        print("Output: ", output)
+        
     except:
