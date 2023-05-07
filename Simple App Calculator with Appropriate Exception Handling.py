@@ -43,5 +43,9 @@ def calculator():
         
         #Show the output of the program
         print("Output: ", output)
-        
-    except:
+
+    except (ValueError, ZeroDivisionError) as e:
+        print("Exception: ", e)
+        calculator()
+
+calculator()
