@@ -13,4 +13,7 @@ print("-" * 90)
 
 def calculator():
     try:
+        #Let the user pick among the four math operations
+        math_operation = input("Pick one math operation among these four (+, -, *, /): ")
+
     except:
