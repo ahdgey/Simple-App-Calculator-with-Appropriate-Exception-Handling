@@ -7,3 +7,4 @@ print("\033[0;36m*" * 90)
 print("\033[1;97mA Simple App Calculator with Appropriate Exception Handling".center(97))
 print("\033[0;36m*" * 90)
 
+print("\033[1;32m\nHello! Your programmers name is Alexza Jean.")
