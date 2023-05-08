@@ -14,7 +14,7 @@ print("-" * 90)
 def calculator():
     try:
         #Let the user pick among the four math operations
-        math_operation = input("Pick one math operation among these four (+, -, *, /): ")
+        math_operation = input("Hi my friend! Kindly pick one math operation among these four (+, -, *, /): ")
 
         #Let the user type in two numbers
         num1 = float(input("Kindly type in the first number you like: "))
@@ -43,6 +43,10 @@ def calculator():
         
         #Show the output of the program
         print("Output: ", output)
+
+        #Ask the user if they want to try again for another operation and numbers
+        option = input("Hi my friend! Would you like to try another operation and numbers? (yes/no): ")
+    
 
     except (ValueError, ZeroDivisionError) as e:
         print("Exception: ", e)
