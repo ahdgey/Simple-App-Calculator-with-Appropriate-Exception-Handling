@@ -46,7 +46,12 @@ def calculator():
 
         #Ask the user if they want to try again for another operation and numbers
         option = input("Hi my friend! Would you like to try another operation and numbers? (yes/no): ")
-    
+
+        #If the user said yes, just repeat the whole process
+        if option.lower() == "yes":
+            calculator()
+
+        
 
     except (ValueError, ZeroDivisionError) as e:
         print("Exception: ", e)
