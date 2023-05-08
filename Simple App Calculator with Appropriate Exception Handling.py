@@ -51,7 +51,12 @@ def calculator():
         if option.lower() == "yes":
             calculator()
 
-        
+        #If the user said no, print "Thank you for using this simple app calculator I made." and then end program
+        elif option.lower() == "no":
+            print("Thank you for using this simple app calculator I made.")
+
+        else:
+            raise ValueError("The option you choose in not valid.")
 
     except (ValueError, ZeroDivisionError) as e:
         print("Exception: ", e)
